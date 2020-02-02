@@ -1,0 +1,261 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Lawfirm Website
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    // Facebook and Twitter integration
+    meta(property='og:title', content='')
+    meta(property='og:image', content='')
+    meta(property='og:url', content='')
+    meta(property='og:site_name', content='')
+    meta(property='og:description', content='')
+    meta(name='twitter:title', content='')
+    meta(name='twitter:image', content='')
+    meta(name='twitter:url', content='')
+    meta(name='twitter:card', content='')
+    link(href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700', rel='stylesheet')
+    // Animate.css
+    link(rel='stylesheet', href='stylesheets/css/animate.css')
+    // Icomoon Icon Fonts
+    link(rel='stylesheet', href='fonts/icomoon/icomoon.css')
+    // Bootstrap
+    link(rel='stylesheet', href='stylesheets/css/bootstrap.css')
+    // Magnific Popup
+    link(rel='stylesheet', href='stylesheets/css/magnific-popup.css')
+    // Owl Carousel
+    link(rel='stylesheet', href='stylesheets/css/owl.carousel.min.css')
+    link(rel='stylesheet', href='stylesheets/css/owl.theme.default.min.css')
+    // Flexslider
+    link(rel='stylesheet', href='stylesheets/css/flexslider.css')
+    // Flaticons
+    link(rel='stylesheet', href='fonts/flaticon/font/flaticon.css')
+    // Theme style
+    link(rel='stylesheet', href='stylesheets/css/style.css')
+    // Modernizr JS
+    script(src='javascripts/js/modernizr-2.6.2.min.js')
+    // FOR IE9 below
+    //if lt IE 9
+      script(src='js/respond.min.js')
+  body
+    .colorlib-loader
+    #page
+      nav.colorlib-nav(role='navigation')
+        .top-menu
+          .container
+            .row
+              .col-md-2
+                #colorlib-logo
+                  a(href='/')
+                    | Law
+                    span firm.
+              .col-md-10.text-right.menu-1
+                ul
+                  li
+                    a(href='/') Home
+                 
+                   
+                 
+                  li.active
+                    a(href='/about') About
+                  li
+                    a(href='/contact') Contact
+                  li.btn-cta
+                    a(href='#')
+                      span Make an Appointment
+      aside#colorlib-hero.js-fullheight
+        .flexslider.js-fullheight
+          ul.slides
+            li(style='background-image: url(images/images/img_bg_1.jpg);')
+              .overlay-gradient
+              .container
+                .col-md-10.col-md-offset-1.text-center.js-fullheight.slider-text
+                  .slider-text-inner.desc
+                    h2.heading-section About Us
+                    p.colorlib-lead
+                      | Designed with love by the fine folks at 
+                      a(href='#', target='_blank') Lawfirm
+      #colorlib-about
+        .container
+          .row.animate-box
+            .col-md-8.col-md-offset-2.text-center.colorlib-heading
+              h2 Our Attorneys
+              p
+                | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+          .row
+            .col-md-4.col-sm-4.text-center.animate-box(data-animate-effect='fadeIn')
+              .colorlib-staff
+                img(src='images/user-2.jpg', alt='Free HTML5 Templates by gettemplates.co')
+                h3 John Simon
+                strong.role Counsel
+                p
+                  | Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+                ul.colorlib-social-icons
+                  li
+                    a(href='#')
+                      i.icon-facebook
+                  li
+                    a(href='#')
+                      i.icon-twitter
+                  li
+                    a(href='#')
+                      i.icon-dribbble
+                  li
+                    a(href='#')
+                      i.icon-github
+            .col-md-4.col-sm-4.text-center.animate-box(data-animate-effect='fadeIn')
+              .colorlib-staff
+                img(src='images/user-2.jpg', alt='Free HTML5 Templates by gettemplates.co')
+                h3 John Doe
+                strong.role Head of International Practice
+                p
+                  | Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+                ul.colorlib-social-icons
+                  li
+                    a(href='#')
+                      i.icon-facebook
+                  li
+                    a(href='#')
+                      i.icon-twitter
+                  li
+                    a(href='#')
+                      i.icon-dribbble
+                  li
+                    a(href='#')
+                      i.icon-github
+            .col-md-4.col-sm-4.text-center.animate-box(data-animate-effect='fadeIn')
+              .colorlib-staff
+                img(src='images/user-2.jpg', alt='Free HTML5 Templates by gettemplates.co')
+                h3 Peter Washington
+                strong.role Managing Partner, Attorney
+                p
+                  | Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+                ul.colorlib-social-icons
+                  li
+                    a(href='#')
+                      i.icon-facebook
+                  li
+                    a(href='#')
+                      i.icon-twitter
+                  li
+                    a(href='#')
+                      i.icon-dribbble
+                  li
+                    a(href='#')
+                      i.icon-github
+      #colorlib-consult
+        .video.colorlib-video(style='background-image: url(images/video.jpg);', data-stellar-background-ratio='0.5')
+        .choose.choose-form.animate-box
+          .colorlib-heading
+            h2 Free Legal Consultation
+          form(action='#')
+            .row.form-group
+              .col-md-6
+                // <label for="fname">First Name</label>
+                input#fname.form-control(type='text', placeholder='Your firstname')
+              .col-md-6
+                // <label for="lname">Last Name</label>
+                input#lname.form-control(type='text', placeholder='Your lastname')
+            .row.form-group
+              .col-md-12
+                // <label for="email">Email</label>
+                input#email.form-control(type='text', placeholder='Your email address')
+            .row.form-group
+              .col-md-12
+                // <label for="subject">Subject</label>
+                input#subject.form-control(type='text', placeholder='Your subject of this message')
+            .row.form-group
+              .col-md-12
+                // <label for="message">Message</label>
+                textarea#message.form-control(name='message', cols='30', rows='10', placeholder='Say something about us')
+            .form-group
+              input.btn.btn-primary(type='submit', value='Send Message')
+      footer#colorlib-footer(role='contentinfo')
+        .container
+          .row.row-pb-md
+            .col-md-3.colorlib-widget
+              h4 Lawfirm
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+            .col-md-3.col-md-push-1
+              h4 Navigation
+              ul.colorlib-footer-links
+                li
+                  a(href='#') Home
+                li
+                  a(href='#') Practice Areas
+                li
+                  a(href='#') Won Cases
+                li
+                  a(href='#') Blog
+                li
+                  a(href='#') About us
+            .col-md-3.col-md-push-1
+              h4 Contact Information
+              ul.colorlib-footer-links
+                li
+                  | 198 West 21th Street, 
+                  br
+                  |  Suite 721 New York NY 10016
+                li
+                  a(href='tel://1234567920') + 1235 2355 98
+                li
+                  a(href='mailto:info@yoursite.com') info@yoursite.com
+            .col-md-3.col-md-push-1
+              h4 Opening Hours
+              ul.colorlib-footer-links
+                li Mon - Thu: 9:00 - 21 00
+                li Fri 8:00 - 21 00
+                li Sat 9:30 - 15: 00
+          .row.copyright
+            .col-md-12.text-center
+              p
+                small.block
+                  | © 2018 LawFirm. All Rights Reserved. Created by 
+                  a(href='https://colorlib.com/', target='_blank') Colorlib
+                small.block
+                  | Demo Images: 
+                  a(href='http://unsplash.co/', target='_blank') Unsplash
+              p
+              ul.colorlib-social-icons
+                li
+                  a(href='#')
+                    i.icon-twitter
+                li
+                  a(href='#')
+                    i.icon-facebook
+                li
+                  a(href='#')
+                    i.icon-linkedin
+                li
+                  a(href='#')
+                    i.icon-dribbble
+              p
+    .gototop.js-top
+      a.js-gotop(href='#')
+        i.icon-arrow-up
+    // jQuery
+    script(src='javascripts/js/jquery.min.js')
+    // jQuery Easing
+    script(src='javascripts/js/jquery.easing.1.3.js')
+    // Bootstrap
+    script(src='javascripts/js/bootstrap.min.js')
+    // Waypoints
+    script(src='javascripts/js/jquery.waypoints.min.js')
+    // Stellar Parallax
+    script(src='javascripts/js/jquery.stellar.min.js')
+    // Carousel
+    script(src='javascripts/js/owl.carousel.min.js')
+    // Flexslider
+    script(src='javascripts/js/jquery.flexslider-min.js')
+    // countTo
+    script(src='javascripts/js/jquery.countTo.js')
+    // Magnific Popup
+    script(src='javascripts/js/jquery.magnific-popup.min.js')
+    script(src='javascripts/js/magnific-popup-options.js')
+    // Main
+    script(src='javascripts/js/main.js')
